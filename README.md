@@ -58,13 +58,17 @@ cd DocSpot-Seamless-Appointment-Booking-for-Health
 2. Backend Setup:
 
 cd "Project Files/server"
+
 npm install
+
 npm run dev
 
 3. Frontend Setup:
 
 cd "../client"
+
 npm install
+
 npm start
 
 4. Environment Variables:
@@ -80,6 +84,7 @@ NODE_ENV=development
 Authentication & Authorization:
 
 JWT-based authentication
+
 Middleware for route protection
 Role-based access control (user, doctor, admin)
 
