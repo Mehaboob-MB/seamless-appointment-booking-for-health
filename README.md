@@ -1,21 +1,24 @@
 # seamless-appointment-booking-for-health
 
-Project Overview
+Project Overview:
+
 DocSpot is a full-stack doctor appointment booking system built during the SmartInternz 2025 Virtual Internship Program, powered by SmartBridge.
 This MERN stack project streamlines the appointment process for patients while providing robust tools for doctors and administrators to manage availability, appointments, and user roles.
 
-Features
+Features:
 User
 Register and log in
 Apply as a doctor
 Book appointments
 View appointment history
 Receive real-time notifications
-Doctor
+
+Doctor:
 Log in and manage availability
 View scheduled appointments
 Update appointment statuses
-Admin
+
+Admin:
 Approve or reject doctor applications
 Manage users and doctors
 Oversee platform activity
@@ -64,7 +67,8 @@ PORT=5000
 MONGO_URI=your_mongo_connection_string
 JWT_SECRET=your_jwt_secret
 NODE_ENV=development
-Authentication & Authorization
+
+Authentication & Authorization:
 JWT-based authentication
 Middleware for route protection
 Role-based access control (user, doctor, admin)
