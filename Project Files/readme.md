@@ -1,105 +1,84 @@
-**DocSpot – Seamless Appointment Booking for Health**
+**📘 Project Submission** - README
 
-**Project Overview**
+**🎓 Project Title:**
+**DocSpot: Seamless Appointment Booking for Health**
 
-DocSpot is a full-stack web application that enables patients to book, reschedule, and manage medical appointments online. It supports doctor discovery, appointment scheduling, secure payments, digital prescriptions, and (optionally) video consultations. The platform is designed for three roles — Patient, Doctor, and Admin — and provides smooth, real-time interaction across the healthcare workflow.
+---
 
-
-**Tech Stack:**
-
-Frontend: React.js, Bootstrap, Material UI, MDB UI Kit
-Backend: Node.js, Express.js
-Database: MongoDB + Mongoose
-Authentication: JWT (JSON Web Tokens)
-Payment Gateway: Razorpay
-API Communication: Axios
-
-**📁 Project Structure**
-
-Project Files/
-├── frontend/
-│ ├── public/
-│ └── src/
-│ ├── components/
-│ ├── pages/
-│ ├── assets/
-│ └── App.js
-├── backend/
-│ ├── controllers/
-│ ├── models/
-│ ├── routes/
-│ ├── config/
-│ └── index.js
-├── .env.example
-├── README.md 
-├── admin/
-│   ├── public/
-│   └── src/
-│       ├── assets/
-│       ├── components/
-│       ├── context/
-│       └── pages/
-│           ├── Admin/
-│           └── Doctor/
+**👥 Team Members:**
+- T.Mehaboob Basha.
 
 
-**⚙ Setup Instructions**
+---
 
-1. Clone the Project
-```bash
-git clone https://github.comRajeswari1606/docspot.git
-cd docspot
-2. Install Backend Dependencies
-cd (project folder name ,when you enter in correct folder then do below steps)
-npm install
-3. Install Frontend Dependencies
-cd (project folder name , ,when you enter in correct folder then do below steps)
-npm install
-4. Install admin Dependencies
-cd (project folder name ,when you enter in correct folder then do below steps)
-npm install
-4. Configure Environment Variables
-Create a .env file in /backend/ with the following:
+**📝 Project Description:**
+DocSpot is a user-friendly appointment booking platform designed for seamless interaction between patients and healthcare providers. It allows patients to search for doctors, book appointments in real-time, attend video consultations, and receive digital prescriptions. Doctors can manage their availability, view bookings, and update profiles. An admin panel enables user and appointment monitoring.
 
-init
-PORT=5000
-MONGO_URI=your_mongodb_connection_string(give your connection url)
-RAZORPAY_KEY_ID=your_razorpay_key(give your coonection url)
-RAZORPAY_KEY_SECRET=your_razorpay_secret(give your url)
-JWT_SECRET=your_jwt_secret(give your connection url)
-▶ Running the Application
-Start Backend
-bash
-cd backend
-npm start
-Start Frontend
-bash
-cd frontend
-npm run dev
-Start Admin
-bash
-cd admin
-npm run dev
-**✅ Key Features**
-Role-based login: Patient, Doctor, Admin
+The application is built using the *MERN stack (MongoDB, Express.js, React.js, Node.js)* with integrated online payments via *Razorpay*.
 
-Doctor search with filters (specialization, location)
+---
 
-Appointment booking and cancellation
+  **🧑‍⚕ Key Features:**
+- Secure user registration & login for Patient, Doctor, and Admin
+- Doctor search and filtering (by specialty)
+- Real-time appointment booking and cancellation
+- Payment gateway integration via Razorpay
+- Doctor profile management and availability setup
+- Admin dashboard to manage users
 
-Razorpay payment integration
+---
 
-Doctor availability management
+**🛠 Technology Stack:**
 
-Admin dashboard for system management
+| Layer        | Tools & Frameworks                         |
+|--------------|--------------------------------------------|
+| Frontend     | React.js, Bootstrap, Material UI, MDB UI Kit
+| Backend      | Node.js, Express.js                        |
+| Database     | MongoDB with Mongoose   and Cloud          
+| Auth         | JWT-based Authentication                   |
+| Payment      | Razorpay API                               |
+| API Handling | Axios                                      |
 
+---
 
-**📁 Notes**
-MongoDB must be running (local or Atlas)
+**📁 Folder Structure:**
 
-Use .env to manage sensitive keys
+| Folder Name        | Description                                                |
+|--------------------|------------------------------------------------------------|
+| Project/         | Contains the full source code (frontend + backend + admin) 
+| Documentation/   | Requirement docs, wireframes, database design, UAT, etc.   |
+| Video Demo/      | Demonstration of key features and working application      |
+| README.docx/pdf  | This summary file                                          |
 
-Test credentials are available in /Documentation/ folder
+---
 
-**👥 Developed By :**
-T. Mehaboob Basha.
+**📽 Demo Video:**
+📁 Included in the Demo Video/ folder.  
+It showcases:
+- Folder structure
+- Login/Signup flow  
+- Doctor search & booking  
+- Payment processing  
+- Admin overview
+
+---
+
+**✅ Submission Notes*:
+- Project follows complete SDLC: Ideation → Requirement → Planning → Design → Development → Testing → Documentation
+- User Acceptance Testing (UAT) and bug reports included
+- All screenshots and outputs provided in the documentation folder
+- Tested on Chrome, Edge, and Firefox
+
+---
+
+**🔏 Sign-off:**
+
+Submitted By:
+
+- T.Mehaboob Basha.
+
+Submitted Date:
+27-06-2025
+
+Course: Full Stack Development (MERN stack) 
+Institution:santhiram Engineering College. 
