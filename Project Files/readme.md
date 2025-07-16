@@ -1,11 +1,11 @@
-DocSpot – Seamless Appointment Booking for Health
+**DocSpot – Seamless Appointment Booking for Health**
 
-Project Overview
+**Project Overview**
 
 DocSpot is a full-stack web application that enables patients to book, reschedule, and manage medical appointments online. It supports doctor discovery, appointment scheduling, secure payments, digital prescriptions, and (optionally) video consultations. The platform is designed for three roles — Patient, Doctor, and Admin — and provides smooth, real-time interaction across the healthcare workflow.
 
 
-Tech Stack:
+**Tech Stack:**
 
 Frontend: React.js, Bootstrap, Material UI, MDB UI Kit
 Backend: Node.js, Express.js
@@ -14,7 +14,7 @@ Authentication: JWT (JSON Web Tokens)
 Payment Gateway: Razorpay
 API Communication: Axios
 
-📁 Project Structure
+**📁 Project Structure**
 
 Project Files/
 ├── frontend/
@@ -43,7 +43,7 @@ Project Files/
 │           └── Doctor/
 
 
-⚙ Setup Instructions
+**⚙ Setup Instructions**
 
 1. Clone the Project
 ```bash
@@ -80,7 +80,7 @@ Start Admin
 bash
 cd admin
 npm run dev
-✅ Key Features
+**✅ Key Features**
 Role-based login: Patient, Doctor, Admin
 
 Doctor search with filters (specialization, location)
@@ -94,12 +94,12 @@ Doctor availability management
 Admin dashboard for system management
 
 
-📁 Notes
+**📁 Notes**
 MongoDB must be running (local or Atlas)
 
 Use .env to manage sensitive keys
 
 Test credentials are available in /Documentation/ folder
 
-👥 Developed By :
+**👥 Developed By :**
 T. Mehaboob Basha.
