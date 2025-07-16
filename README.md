@@ -1,19 +1,17 @@
 **📘 Project Submission - README**
 
-**🎓 Project Title:
+🎓 Project Title:
 
 DocSpot: Seamless Appointment Booking for Health**
 
 ---
+**👥 Team Members:**
 
-**👥 Team Members:
-
--T. Mehaboob Basha.**
+-T. Mehaboob Basha.
 
 
 ---
-**
-📝 Project Description:**
+**📝 Project Description:**
 
 DocSpot is a user-friendly appointment booking platform designed for seamless interaction between patients and healthcare providers. It allows patients to search for doctors, book appointments in real-time, attend video consultations, and receive digital prescriptions. Doctors can manage their availability, view bookings, and update profiles. An admin panel enables user and appointment monitoring.
 
