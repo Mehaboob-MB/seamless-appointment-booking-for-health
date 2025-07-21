@@ -7,11 +7,17 @@ DocSpot: Seamless Appointment Booking for Health**
 ---
 **👥 Team Members:**
 
--T. Mehaboob Basha.
-B Manoj
-K Veera Sankar Reddy
-Nada Gowda Chandra Sekhar Reddy
 Team ID : LTVIP2025TMID52698
+
+-T. Mehaboob Basha.
+
+B Manoj
+
+K Veera Sankar Reddy
+
+Nada Gowda Chandra Sekhar Reddy
+
+
 
 
 ---
